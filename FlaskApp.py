@@ -73,7 +73,7 @@ def detect():
         cv2.rectangle(full_size_image, (x, y), (x + w, y + h), (0, 255, 0), 1)
         #predicting the emotion
         emotion= loaded_model.predict(cropped_img)
-        emotion_detected = labels[int(np.argmax(emotion))
+        emotion_detected = labels[int(np.argmax(emotion))]
     
     return render_template('template.html', detected_expression = 'Detected Emotion is   {}'.format(float(emotion_detected)))  
 
