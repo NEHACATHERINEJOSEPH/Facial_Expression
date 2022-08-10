@@ -5,6 +5,7 @@
 
 
 # load json and create model
+from __future__ import division
 import os
 import numpy as np
 import cv2
