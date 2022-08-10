@@ -19,11 +19,5 @@ Keras-Preprocessing==1.1.2
 opencv-python==4.6.0.66
 python-lsp-jsonrpc==1.0.0
 python-lsp-server==1.2.4
-tensorboard==2.9.0
-tensorboard-data-server==0.6.1
-tensorboard-plugin-3d==1.0.3
-tensorboard-plugin-wit==1.8.1
-tensorflow==2.9.1
-tensorflow-estimator==2.9.0
-tensorflow-io-gcs-filesystem==0.26.0
+
 
