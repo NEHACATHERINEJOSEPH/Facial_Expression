@@ -11,7 +11,6 @@ import numpy as np
 import cv2
 import pickle
 import pandas as pd
-from __future__ import division
 from keras.models import Sequential
 from keras.layers import Dense
 from keras.models import model_from_json
