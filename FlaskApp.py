@@ -77,3 +77,5 @@ def detect():
     
     return render_template('template.html', detected_expression = 'Detected Emotion is   {}'.format(float(emotion_detected)))  
 
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=3000)
