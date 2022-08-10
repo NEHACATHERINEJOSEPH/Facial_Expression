@@ -44,7 +44,7 @@ labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
 # In[ ]:
 
 
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def home():
     return render_template('template.html')
 
